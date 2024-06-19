@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.heading{
+    background-color:rgb(225, 199, 199);
+    margin:0;
+    padding:5px;
+    border-radius:5px;
+}
+
+.heading_title {
+    font-size:25px;
+    text-align:center;
+    font-family:'Dancing Script';
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:right;
+    padding:40px;
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    text-align:right;
+    margin-left:25vh;
+    font-size:20px;
+}
+
+.intro{
+    justify-content:center;
+    padding:20px;
+}
+
+.introimage{
+    display:flex;
+    margin-left:110vh;
+    align-items:flex-end;
+}
+
+.intro1{
+    font-size:20px;
+    text-align:center
+}
+
+.intro2{
+    font-size:20px;
+    text-align:center;
+}
+
+.intro3{
+    font-size:15px;
+    text-align:center;
+}
+
+.openinghours{
+    justify-content:center;
+    padding:20px;
+}
+
+.weekday{
+    font-size:20px;
+    text-align:center;
+}
+
+.weekend{
+    font-size:20px;
+    text-align:center;
+}
+
+.container{
+    background-image:url(images/background14.jpg); 
+    margin:0;
+    padding:10px;
+    height:80vh;
+    border-radius:20px; 
+}
+
+.statements{
+    align-items:center;
+    justify-content: center;
+    opacity:0.7;
+}
+
+.welcome_statement{
+    padding:50px 0 0 0;
+    color:white;
+    text-align:center;
+    font-size:50px;
+    margin-top:15vh;
+    margin-bottom:5vh;
+}
+
+.middle_statement{
+    padding:0;
+    color:white;
+    text-align:center;
+    font-size:70px;
+    margin:0;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.last_statement{
+    padding:0;
+    color:white;
+    text-align:center;
+    font-size:20px;
+}
+
+.buttonshop{
+    padding:10px;
+    color:black;
+    margin-left: 85vh;
+    justify-content: center;
+    font-size:30px;
+    background-color:rgb(212, 180, 180);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.collection{
+    border-radius:10px;
+    height:10vh;
+    margin-top:10vh;
+    margin-bottom:0;
+    
+    
+}
+
+.our_collection{
+    color:rgb(199, 161, 161);
+    text-align:center;
+    padding:10px;
+    opacity:0.7;
+    margin-top:20px;
+    font-size:40px;
+    margin-bottom:0;
+}
+
+.images{
+    margin-left:5vh;
+    margin-top:10vh;
+    margin-bottom: 10vh;;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10vh;
+
+}
+
+.b1{
+    border:solid 2px rgb(108, 107, 107);
+    padding:7vh;
+    border-radius:15px;
+}
+
+.name1{
+    font-family:'Dancing Script';
+    font-weight:600;
+    font-size:25px;
+}
+
+.b2{
+    border:solid 2px rgb(108, 107, 107);
+    padding:7vh;
+    border-radius:15px;
+}
+
+.name2{
+    font-family:'Dancing Script';
+    font-weight:600;
+    font-size:25px;
+}
+
+.b3{
+    border:solid 2px rgb(108, 107, 107);
+    padding:7vh;
+    border-radius:15px;
+}
+
+.name3{
+    font-family:'Dancing Script';
+    font-weight:600;
+    font-size:25px;
+}
+
+.b4{
+    border:solid 2px rgb(108, 107, 107);
+    padding:7vh;
+    border-radius:15px;
+}
+
+.name4{
+    font-family:'Dancing Script';
+    font-weight:600;
+    font-size:25px;
+}
+
+.b5{
+    border:solid 2px rgb(108, 107, 107);
+    padding:7vh;
+    border-radius:15px;
+}
+
+.name5{
+    font-family:'Dancing Script';
+    font-weight:600;
+    font-size:25px;
+}
+
+.b6{
+    border:solid 2px rgb(108, 107, 107);
+    padding:7vh;
+    border-radius:15px;
+}
+
+.name6{
+    font-family:'Dancing Script';
+    font-weight:600;
+    font-size:25px;
+}
+
+.buy-now{
+    padding:10px;
+    color:black;
+    justify-content: center;
+    font-size:25px;
+    background-color:rgb(212, 180, 180);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.AboutUs{
+    margin-left:20vh;
+    margin-right:20vh;
+    margin-top:30px;
+    background-color:white;
+    padding:10px;
+    border-radius:10px;
+}
+
+.abtheading{
+    text-align:center;
+    color:rgb(147, 67, 79);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:45px;
+
+}
+
+.abt1{
+    text-align:center;
+    color:rgb(147, 67, 79);
+    font-size:30px;
+    font-family:'Cormorant Garamond';
+    font-weight:600 italic;
+}
+
+.abt2{
+    text-align:center;
+    color:rgb(147, 67, 79);
+    font-size:20px;
+    font-family:'Cormorant Garamond';
+    font-weight:600 italic;
+}
+
+.abt3{
+    text-align:center;
+    color:rgb(147, 67, 79);
+    font-size:20px;font-family:'Cormorant Garamond';
+    font-weight:600 italic;
+}
+
+.abt4{
+    text-align:center;
+    color:rgb(147, 67, 79);
+    font-size:20px;font-family:'Cormorant Garamond';
+    font-weight:600 italic;
+}
+
+.Cart{
+    
+    background-color: transparent;
+    border:dashed 2px rgb(191, 137, 146) ;
+    border-radius:10px;
+    padding:10px;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1rem;
+    color: rgba(63, 62, 65, 0.7);
+    width:30%;
+    margin-bottom: 20px;
+    margin-left:65vh;
+    margin-top:50px;
+    justify-content: center;
+    
+}
+
+.yourcart{
+    text-align:center;
+}
+
+.buy{
+    margin-top:20px;
+    padding:10px;
+    color:black;
+    justify-content:center;
+    font-size:25px;
+    background-color:rgb(212, 180, 180);
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:20vh;
+
+}
+
+
+.wedding{
+    margin-left:17vh;
+    margin-top:10vh;
+    margin-bottom: 10vh;;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10vh;
+}
+
+
+.abtevents{
+    color:rgb(147, 67, 79)
+}
+
+.eventheading{
+    font-size: 50px;
+    text-align:center;
+    margin-bottom:5vh;
+    font-family:'Dancing Script';
+    font-weight:600;
+    
+}
+
+.eventinfo1{
+    font-size:25px;
+    text-align:center;
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+.eventinfo2{
+    font-size:25px;
+    text-align:center;
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+.eventinfo3{
+    font-size: 35px;
+    text-align:center;
+    font-family:'Cormorant Garamond';
+    font-weight:700;
+}
+
+.weddingheading{
+    text-align:center;
+    margin-top:10vh;
+    font-size:40px;
+    color:rgb(101, 95, 96);
+    font-family:'Dancing Script';
+    font-weight:600;
+}
+
+
+
+.age{
+    display:flex;
+    align-items:flex-start;
+    margin:20px;
+}
+
+.twentythree{
+    min-width:575px;
+}
+
+.ageinfo{
+    margin-top:10vh;
+    margin-left:10vh;
+    font-size:20px;
+    margin-right:10vh;
+    text-align:left;
+    justify-content:center;
+}
+
+.single{
+    display:flex;
+    align-items:flex-start;
+    margin:20px;
+}
+
+.singletable{
+    min-width:575px;
+}
+
+.singleinfo{
+    margin-top:10vh;
+    margin-left:10vh;
+    font-size:20px;
+    margin-right:10vh;
+    text-align:left;
+    justify-content:center;
+}
+
+.tablesetting{
+    display:flex;
+    align-items:flex-start;
+    margin:20px;
+}
+
+.setting{
+    min-width:575px;
+}
+
+.grouptableinfo{
+    
+    margin-left:10vh;
+    font-size:20px;
+    margin-right:10vh;
+    text-align:left;
+    justify-content:center;
+}
+
+.entname{
+    font-size:30px;
+    color:rgb(84, 77, 77);
+    margin-left:17vh;
+    justify-content:center;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.aislename{
+    font-size:30px;
+    color:rgb(84, 77, 77);
+    margin-left:17vh;
+    justify-content:center;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.table1name{
+    font-size:30px;
+    color:rgb(84, 77, 77);
+    margin-left:17vh;
+    justify-content:center;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.table2name{
+    font-size:30px;
+    color:rgb(84, 77, 77);
+    margin-left:17vh;
+    justify-content: center;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.bheading{
+    text-align:center;
+    margin-top:10vh;
+    font-size:40px;
+    color:rgb(101, 95, 96);
+    margin-bottom:10vh;
+    justify-content: center;
+    font-family:'Dancing Script';
+    font-weight:600;
+}
+
+.photoboothheading{
+    text-align:center;
+    font-size:40px;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.ageinfo1{
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+.ageinfo{
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+
+.singletableheading{
+    text-align:center;
+    font-size:40px;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.singleinfo1{
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+.singleinfo2{
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+.grouptableinfo{
+    margin:0;
+    padding:0;
+}
+
+.groupheading{
+    text-align:center;
+    font-size:40px;
+    font-family:'Dancing Script';
+    font-weight:400;
+}
+
+.groupinfo1{
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+.groupinfo2{
+    font-family:'Cormorant Garamond';
+    font-weight:600;
+}
+
+
+.buttonC{
+    padding:10px;
+    color:black;
+    justify-content: center;
+    font-size:15px;
+    background-color:rgb(226, 205, 205);
+    border:none;
+    border-radius:2px;
+    cursor: pointer;
+    margin-left:27vh;
+}
+
+#Contacts{
+    background-color: rgb(195, 193, 193);
+    padding:20px;
+    margin:0;
+}
+
+.contactshead{
+    text-align:center;
+    font-family:'Dancing Script';
+    font-weight:600;
+    font-size:40px;
+}
+
+.email{
+    text-align:center;
+    color:black;
+    font-family:'Dancing Script';
+    font-weight:400;
+    font-size:25px;
+}
+
+.instagram{
+    text-align:center;
+    color:black;
+    font-family:'Dancing Script';
+    font-weight:400;
+    font-size:25px;
+}
+
+.twitter{
+    text-align:center;
+    color:black;
+    font-family:'Dancing Script';
+    font-weight:400;
+    font-size:25px;
+}
+
+footer{
+    background-color:grey;
+    margin:0;
+    padding:5px;
+}
+
+.footertext{
+    text-align:center;
+}
+
+
